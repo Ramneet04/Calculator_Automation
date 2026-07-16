@@ -5,9 +5,6 @@ import org.testng.annotations.Test;
 
 /**
  * CalculatorTest: automates the 4 basic arithmetic operations on the
- * native Android calculator app and validates the result shown on screen
- * against the expected value.
- *
  * Each test follows the same pattern:
  *   1. Press the first operand's digit(s)
  *   2. Press the operator
