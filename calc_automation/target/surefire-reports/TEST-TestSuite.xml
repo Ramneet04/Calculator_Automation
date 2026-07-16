@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="31.186" tests="4" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\DS\Desktop\calculator-app-automation\calc_automation\target\test-classes;C:\Users\DS\Desktop\calculator-app-automation\calc_automation\target\classes;C:\Users\DS\.m2\repository\io\appium\java-client\10.1.1\java-client-10.1.1.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.46.0\selenium-api-4.46.0.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.46.0\selenium-remote-driver-4.46.0.jar;C:\Users\DS\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\DS\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\DS\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\DS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\DS\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-api\1.64.0\opentelemetry-api-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-context\1.64.0\opentelemetry-context-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-common\1.64.0\opentelemetry-common-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.64.0\opentelemetry-exporter-logging-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.64.0\opentelemetry-sdk-common-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.64.0\opentelemetry-sdk-extension-autoconfigure-spi-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.64.0\opentelemetry-sdk-extension-autoconfigure-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.64.0\opentelemetry-sdk-trace-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.64.0\opentelemetry-sdk-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.64.0\opentelemetry-sdk-metrics-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.64.0\opentelemetry-sdk-logs-1.64.0.jar;C:\Users\DS\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.46.0\selenium-http-4.46.0.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.46.0\selenium-json-4.46.0.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.46.0\selenium-manager-4.46.0.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-os\4.46.0\selenium-os-4.46.0.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.46.0\selenium-support-4.46.0.jar;C:\Users\DS\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\DS\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\DS\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\DS\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\DS\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\DS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\DS\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\DS\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\DS\AppData\Local\Temp\surefire1636983323836572204\surefirebooter-20260716221114535_3.jar C:\Users\DS\AppData\Local\Temp\surefire1636983323836572204 2026-07-16T22-11-14_074-jvmRun1 surefire-20260716221114535_1tmp surefire_0-20260716221114535_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\DS\Desktop\calculator-app-automation\calc_automation\target\test-classes;C:\Users\DS\Desktop\calculator-app-automation\calc_automation\target\classes;C:\Users\DS\.m2\repository\io\appium\java-client\10.1.1\java-client-10.1.1.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-api\4.46.0\selenium-api-4.46.0.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.46.0\selenium-remote-driver-4.46.0.jar;C:\Users\DS\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\DS\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\DS\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\DS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\DS\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-api\1.64.0\opentelemetry-api-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-context\1.64.0\opentelemetry-context-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-common\1.64.0\opentelemetry-common-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.64.0\opentelemetry-exporter-logging-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.64.0\opentelemetry-sdk-common-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.64.0\opentelemetry-sdk-extension-autoconfigure-spi-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.64.0\opentelemetry-sdk-extension-autoconfigure-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.64.0\opentelemetry-sdk-trace-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.64.0\opentelemetry-sdk-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.64.0\opentelemetry-sdk-metrics-1.64.0.jar;C:\Users\DS\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.64.0\opentelemetry-sdk-logs-1.64.0.jar;C:\Users\DS\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-http\4.46.0\selenium-http-4.46.0.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-json\4.46.0\selenium-json-4.46.0.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.46.0\selenium-manager-4.46.0.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-os\4.46.0\selenium-os-4.46.0.jar;C:\Users\DS\.m2\repository\org\seleniumhq\selenium\selenium-support\4.46.0\selenium-support-4.46.0.jar;C:\Users\DS\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\DS\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\DS\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\DS\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\DS\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\DS\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\DS\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\DS\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\DS"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\DS\Desktop\calculator-app-automation\calc_automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\DS\AppData\Local\Temp\surefire1636983323836572204\surefirebooter-20260716221114535_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.19+10"/>
+    <property name="user.name" value="DS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.19+10"/>
+    <property name="localRepository" value="C:\Users\DS\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\DS\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.19"/>
+    <property name="user.dir" value="C:\Users\DS\Desktop\calculator-app-automation\calc_automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin;C:\Program Files\nodejs\;C:\Users\DS\Downloads\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;C:\Users\DS\AppData\Local\Android\Sdk;C:\Users\DS\AppData\Local\Android\Sdk\platform-tools;C:\Users\DS\AppData\Local\Android\Sdk\emulator;C:\Users\DS\AppData\Local\Microsoft\WindowsApps;C:\Users\DS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DS\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.19+10"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testAddition" classname="tests.CalculatorTest" time="5.009">
+    <failure message="androidx.test.uiautomator.StaleObjectException&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception&#10;Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.19&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [e90cbea5-b232-4ef3-813e-0104bbe26710, getElementText {id=00000000-0000-0085-ffff-ffff00000072}]&#10;Capabilities {appium:appActivity: apps.r.calculator.Theme.Lig..., appium:appPackage: apps.r.calculator, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: apps.r.calculator.Theme.Lig..., appPackage: apps.r.calculator, automationName: UIAutomator2, deviceName: Pixel_10, noReset: true, platformName: ANDROID}, appium:deviceApiLevel: 37, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone16k_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 17, appium:statBarHeight: 132, appium:takesScreenshot: true, appium:viewportRect: {height: 2268, left: 0, top: 132, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}&#10;Element: [[AndroidDriver:  on ANDROID (e90cbea5-b232-4ef3-813e-0104bbe26710)] -&gt; id: apps.r.calculator:id/result]&#10;Session ID: e90cbea5-b232-4ef3-813e-0104bbe26710" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [e90cbea5-b232-4ef3-813e-0104bbe26710, getElementText {id=00000000-0000-0085-ffff-ffff00000072}]
+Capabilities {appium:appActivity: apps.r.calculator.Theme.Lig..., appium:appPackage: apps.r.calculator, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: apps.r.calculator.Theme.Lig..., appPackage: apps.r.calculator, automationName: UIAutomator2, deviceName: Pixel_10, noReset: true, platformName: ANDROID}, appium:deviceApiLevel: 37, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone16k_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 17, appium:statBarHeight: 132, appium:takesScreenshot: true, appium:viewportRect: {height: 2268, left: 0, top: 132, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (e90cbea5-b232-4ef3-813e-0104bbe26710)] -> id: apps.r.calculator:id/result]
+Session ID: e90cbea5-b232-4ef3-813e-0104bbe26710
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:193)
+	at pages.CalculatorPage.getResult(CalculatorPage.java:75)
+	at tests.CalculatorTest.testAddition(CalculatorTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[SETUP] Appium session started successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="testDivision" classname="tests.CalculatorTest" time="7.501">
+    <failure message="Division failed: expected 20 / 4 to equal 5, but got  expected [5] but found []" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Division failed: expected 20 / 4 to equal 5, but got  expected [5] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at tests.CalculatorTest.testDivision(CalculatorTest.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="testMultiplication" classname="tests.CalculatorTest" time="3.611">
+    <failure message="Multiplication failed: expected 5 x 6 to equal 30, but got  expected [30] but found []" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Multiplication failed: expected 5 x 6 to equal 30, but got  expected [30] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at tests.CalculatorTest.testMultiplication(CalculatorTest.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="testSubtraction" classname="tests.CalculatorTest" time="4.278">
+    <failure message="Subtraction failed: expected 10 - 4 to equal 6, but got  expected [6] but found []" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Subtraction failed: expected 10 - 4 to equal 6, but got  expected [6] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at tests.CalculatorTest.testSubtraction(CalculatorTest.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+</testsuite>
