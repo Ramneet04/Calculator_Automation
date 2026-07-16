@@ -16,21 +16,19 @@
     </properties>
 
     <dependencies>
-        <!-- Appium Java client: lets Java code drive Appium/Selenium sessions -->
+
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>10.1.1</version>
         </dependency>
 
-        <!-- TestNG: test runner, assertions, reporting -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.10.2</version>
         </dependency>
 
-        <!-- SLF4J simple logger: gives us clean console logging for pass/fail messages -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
@@ -40,7 +38,6 @@
 
     <build>
         <plugins>
-            <!-- Runs TestNG tests via 'mvn test' -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
